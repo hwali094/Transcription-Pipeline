@@ -1,6 +1,6 @@
 from faster_whisper import WhisperModel
 
-FILE_PATH = "./test_audio/long.wav"
+FILE_PATH = "./test_audio/sample.wav"
 
 def load_file(path):
     """loads an audio file and returns its binary data. Raises an error if the file is not found or if the file format is not supported."""
